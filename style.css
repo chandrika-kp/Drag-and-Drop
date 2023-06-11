@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  color: rgb(54, 52, 52);
+  text-align: center;
+  width: 1000px;
+  height: 360px;
+  margin: 5px auto;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+.firstDiv,
+.secondDiv {
+  width: 300px;
+  height: 90%;
+  padding: 20px;
+  margin: 10px;
+  background: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.Containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  border: 2px solid #2dc6c6;
+  padding: 10%;
+  width: 250px;
+  height: 80%;
+
+}
+
+.items {
+  width: 10rem;
+  height: 3rem;
+  color: #469c9c;
+  font-weight: bold;
+  background: #ffffff;
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 2px;
+  cursor: grab;
+  border-radius: 14px;
+
+}
+
+.container .items:active{
+  background-color: blueviolet;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: #fff;
+
+}
